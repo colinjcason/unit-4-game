@@ -1,27 +1,98 @@
 body {
     background-color: #1EB0FF;
     font-family: 'Fredoka One', cursive;    
-    width: 450px;
+    width: 100%;
+    font-size: 20px;
+    height: 100%;
 }
 
-#title
+#title {
+    display: table;
+    text-align: center;
+    background-color: #66EDED;
+    height: 20px;
+    width: 600px;
+    padding: 10px;
+    margin: 20px;  
+    font-size: 25px;
+}
 
 #instructions {
     background-color: #E4F453;
     height: 350px;
-    width: 450px;
+    width: 600px;
     border: 3px solid #000000;
     margin: 20px;
-    padding: 5px;
-    text-align: left;
+    padding: 10px;
+    text-align: center;
 
+}
+
+#target-number {
+    display: table;
+    
+    font-size: 40px;
+    height: 175px;
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    float: left;
+    border: 3px solid #000000;
+    
+}
+
+#score-board {
+    clear: none;
+    float: left;
+    position: relative;
+    background-color: #FC892A;
+    height: 175px;
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    border: 3px solid #000000;
 }
 
 #score {
-    font-size: 15px;
+    clear: none;
+    float: left;
+    height: 175px;
+    width: 200px;
+    font-size: 30px;
+    border: 3px solid #000000;
+    margin: 20px;
+    padding: 10px;
+    background-color: #14FC7E;
 }
 
-.image-buttons {
-    position: relative;
-    float: right;
+#burger {
+    clear: left;
+    float: left;
+    border: 3px solid #000000;
+    margin: 5px;
+    
 }
+
+#funnel-cake {
+    clear: none;
+    float: left;
+    border: 3px solid #000000;
+    margin: 5px;
+}
+
+#fries {
+    clear: none;
+    float: left;
+    border: 3px solid #000000;
+    margin: 5px;
+}
+
+#cookie-dough {
+    clear: none;
+    float: left;
+    border: 3px solid #000000;
+    margin: 5px;
+}
+

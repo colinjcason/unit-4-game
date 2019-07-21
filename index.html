@@ -10,7 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" type="text/css" href="assets\css\reset.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets\css\reset.css"> -->
 
     <link rel="stylesheet" type="text/css" href="assets\css\style.css">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
@@ -49,14 +49,17 @@
         </div>
     </section>
 
-    <div id="score">
-        <h6>Score to Match: <span id="random-number"></span></h6>
+    <div id="target-number">
+        <h5>Score to Match: <span id="random-number"></span></h5>
     </div>
 
-    <div>
+    <div id="score-board">
         <h6>Wins: <span id="wins"></span></h6>
         <h6>Losses: <span id="losses"></span></h6>
     </div>
+
+    <div id="score">
+        <h6>Your total score is: </h6><span id="total-score"></span></div>
 
     <section class="image-buttons">
     <div class="card" id="burger">
@@ -102,11 +105,7 @@
                   </div>
           </div>     -->
 
-    <div>
-        <h6>Your total score is: </h6>
-    </div>
-    <div id="total-score"></div>
-
+    
     <script src="javascript.js"></script>
 </body>
 
