@@ -2,7 +2,9 @@ body {
     background-color: #1EB0FF;
     font-family: 'Fredoka One', cursive;    
     width: 450px;
-};
+}
+
+#title
 
 #instructions {
     background-color: #E4F453;
@@ -13,12 +15,13 @@ body {
     padding: 5px;
     text-align: left;
 
-};
+}
 
 #score {
     font-size: 15px;
-};
+}
 
 .image-buttons {
-    float: left;
-};
+    position: relative;
+    float: right;
+}
